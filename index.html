@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Planning</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form-container" class="form-container">
+        <label for="street">Street: </label><input type="text" id="street" value="">
+        <label for="city">City: </label><input type="text" id="city" value="">
+        <label for="state">State: </label><input type="text" id="state" value="">
+        <label for="submit-btn"></label> <button id="submit-btn">Submit</button>
+    </form>
+        <hr><hr><br>
+            <h2 id="greeting" class="greeting">Where are we going?</h2><br>
+            <p>Enter an address or city and state above to see weather, wikipedia links, and NY Times articles related to your destination!</p>
+        <br><br>
+            <div class="images">
+            </div>
+            <div class="wunder-container">
+                <h3 id="wunder-header">Wunderground Weather</h3><br>
+                <ul id="wunder-info" class="info-list"></ul>
+            </div>
+        <br>
+            <div class="wikipedia-container">
+                <h3 id="wikipedia-header">Relevant Wikipedia Links</h3><br>
+                <ul id="wikipedia-links"></ul>
+            </div>
+        <br>
+            <div class="nytimes-container">
+                <h3 id="nytimes-header">New York Times Articles</h3><br>
+                <ul id="nytimes-articles" class="article-list"></ul>
+            </div>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

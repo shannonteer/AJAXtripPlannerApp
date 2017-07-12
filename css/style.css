@@ -1,0 +1,103 @@
+
+/* CSS Document */
+
+html,
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Candara, Geneva, sans-serif;
+    font-size: 18px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
+#form-container {
+    height: 60px;
+    padding: 20px;
+    background-color: rgba(204, 204, 204, 0.58);
+}
+
+#form-container input {
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+#form-container label {
+    padding: 10px;
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#submit-btn {
+    width: 60px;
+    background-color: #88e0e3;
+    color: #000000;
+    font-size: 14px;
+}
+
+.images {
+    float: right;
+    position: fixed;
+    top: 200px;
+    width: 60%;
+    padding: 20px;
+}
+
+.greeting {
+    color:black;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(204, 204, 204);
+}
+
+p {
+    text-align: center;
+}
+
+.wikipedia-container, .nytimes-container, .wunder-container {
+    position: relative;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+.wikipedia-container {
+    width: 60%;
+}
+
+#wikipedia-links {
+    text-align: left;
+}
+
+#wikipedia-links li a:hover, .article a:hover {
+    color: #000000;
+    transition: all .5s linear;
+}
+
+.nytimes-container {
+    width: 60%;
+    float: left;
+}
+
+.wunder-container {
+    width: 60%;
+    line-height: 25px;
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
